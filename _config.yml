@@ -1,0 +1,32 @@
+menu:
+  - name: Home
+    url: /
+  - name: Archives
+    url: /archives
+  - name: Categories
+    url: /categories
+  - name: Tags
+    url: /tags
+  - name: About
+    url: /about
+  - name: RSS
+    url: /rss.xml
+sidebar: # Sidebar
+  enable: true 
+  widgets:
+    - search # Search
+    - notice # Notice
+    - categories # Categories
+    - tags # Tags
+    - links # Links
+
+  numlimit: # Limit the number of items shown in the sidebar
+    categories: 5
+    tags: 10
+    
+  links:
+    - name: z3r0X0r
+      url: https://x.com/z3r0X0r
+  notice: # Notice section content
+    enable: true # Set to true to enable, false to disable
+    content: "The blog is under optimization. Stay tuned for more content!" # Content displayed in the notice section
