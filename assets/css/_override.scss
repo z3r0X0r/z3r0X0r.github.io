@@ -1,0 +1,11 @@
+// ==============================
+// Override Variables
+// 覆盖变量
+// ==============================
+
+.home-avatar img {
+    width: 250px !important;  /* Aumenta la dimensione */
+    height: 250px !important; /* Mantieni l'aspetto quadrato */
+    border-radius: 50% !important; /* Rende l'immagine perfettamente rotonda */
+    object-fit: cover !important; /* Mantiene le proporzioni dell'immagine */
+}
